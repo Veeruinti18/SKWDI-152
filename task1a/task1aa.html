@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="task1aaa.css">
+</head>
+<body>
+    <!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    		<a class="navbar-brand" href="#">SkillRaace</a>
+    		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        	<span class="navbar-toggler-icon"></span>
+    		</button>
+    		<div class="collapse navbar-collapse" id="navbarNav">
+        		<ul class="navbar-nav ml-auto">
+            			<li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+            			<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            			<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        		</ul>
+    		</div>
+	</nav>
+
+    <!-- Hero Section -->
+	<header class="hero-section text-center text-white d-flex align-items-center" style="background-image: url('task1aaimage.jpg');">
+    		<div class="container">
+        		<h1 class="display-4">Welcome to SkillRaace</h1>
+        		<p class="lead">Your journey to excellence starts here</p>
+        		<a href="#about" class="btn btn-primary btn-lg">Learn More</a>
+    		</div>
+	</header>
+
+    <!-- Features Section -->
+	<section id="features" class="py-5">
+    	<div class="container">
+        		<div class="row">
+            	<div class="col-md-4 text-center">
+                	<i class="fas fa-cogs fa-3x mb-3"></i>
+                	<h3>Feature One</h3>
+                	<p>Explanation of the first feature.</p>
+            	</div>
+            	<div class="col-md-4 text-center">
+                	<i class="fas fa-cloud fa-3x mb-3"></i>
+                	<h3>Feature Two</h3>
+                	<p>Explanation of the second feature.</p>
+            	</div>
+            	<div class="col-md-4 text-center">
+                	<i class="fas fa-lock fa-3x mb-3"></i>
+                	<h3>Feature Three</h3>
+                	<p>Explanation of the third feature.</p>
+            	</div>
+        	</div>
+    	</div>
+	</section>
+
+    <!-- About Section -->
+	<section id="about" class="py-5 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About Us</h2>
+                <p>Information about our company.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="task1aaimage2.jpg" class="img-fluid" alt="SkillRaace">
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+	<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputName">Name</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMessage">Message</label>
+                        <textarea class="form-control" id="inputMessage" rows="4" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+	<footer class="py-4 bg-dark text-white text-center">
+    <p>&copy; 2024 BrandName. All Rights Reserved.</p>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
