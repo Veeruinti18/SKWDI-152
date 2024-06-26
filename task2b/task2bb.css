@@ -1,0 +1,21 @@
+.navbar-custom {
+  background-color: #333; /* Change background color */
+}
+
+.dropdown-menu-custom {
+  background-color: #333; /* Change background color */
+  color: #fff; /* Change text color */
+}
+
+.dropdown-menu-custom .dropdown-item {
+  color: #fff; /* Change text color */
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
